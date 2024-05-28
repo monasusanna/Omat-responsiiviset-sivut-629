@@ -1,0 +1,53 @@
+
+
+header{
+    font-family: 'Allison';
+    text-align: center;
+    font-size: 220px;
+}
+
+
+body {
+    background-color: rgb(237, 226, 216);
+    font-family: sans-serif;
+    font-size: 25px;
+    }
+
+
+.tietoa {
+    margin-top: 120px;
+
+}
+
+.yhteystiedot {
+    margin-top: 5%;
+}
+
+img {
+    max-width: 700px;
+    margin-top: 120px;
+}
+
+
+
+
+
+/* Mobiili */
+@media only screen and (max-width: 774px){
+
+    header {
+        font-size: 110px;
+    }
+
+    .tietoa {
+        text-align: center;
+        
+    }
+    
+    .yhteystiedot  {
+        font-size: 20px;
+        margin-bottom: 20%;
+    }
+
+ 
+}
